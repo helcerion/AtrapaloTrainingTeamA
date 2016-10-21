@@ -1,6 +1,7 @@
 <?php
 
 namespace TeamATest\Board\Domain;
+use TeamA\Board\Domain\Board;
 
 /**
  * Class BoardTest

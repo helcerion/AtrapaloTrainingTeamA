@@ -7,12 +7,15 @@ use TeamA\Piece\Domain;
 class Board{
 
     private $pieces;
+    private $actualPiece;
+    private $hasActualPiece;
 
     public function Board() {
         $this->pieces = array();
     }
 
     public function addPiece(Piece p) {
+
     }
 
     public function movePieceDown() {
