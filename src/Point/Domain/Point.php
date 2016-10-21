@@ -14,7 +14,7 @@ class Point
      * @param int $x
      * @param int $y
      */
-    public function __construct($x, $y)
+    public function __construct($x = 0, $y = 0)
     {
         self::updatePoint($x, $y);
     }
@@ -75,7 +75,8 @@ class Point
      * @param int $x
      * @param int $y
      */
-    public function updatePoint($x, $y){
+    public function updatePoint($x, $y)
+    {
         $this->x = $x;
         $this->y = $y;
     }

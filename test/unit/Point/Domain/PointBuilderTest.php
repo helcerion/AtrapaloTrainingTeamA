@@ -30,7 +30,7 @@ class PointBuilderTest extends \PHPUnit_Framework_TestCase
     {
         $point = $this->sut->build(0,0);
 
-        $this->assertEquals('Point', get_class($point));
+        $this->assertEquals('TeamA\Point\Domain\Point', get_class($point));
     }
 
     private function createSut()
