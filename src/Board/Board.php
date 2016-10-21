@@ -6,6 +6,12 @@ use TeamA\Piece\Domain;
 
 class Board{
 
+    private $pieces;
+
+    public function Board() {
+        $this->pieces = array();
+    }
+
     public function addPiece(Piece p) {
     }
 
