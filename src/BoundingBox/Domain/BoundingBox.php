@@ -1,10 +1,14 @@
 <?php
 
-use Point;
+namespace TeamA\BoundingBox\Domain;
 
+use Point;
 
 class BoundingBox
 {
+
+    private $leftTop;
+    private $rightBottom;
 
     /**
      * @param Point $point
@@ -13,9 +17,8 @@ class BoundingBox
      */
     public function setLeftTop($point)
     {
-        return $point;
+        $this->leftTop = $point;
     }
-
 
     /**
      * @param Point $point
@@ -24,6 +27,16 @@ class BoundingBox
      */
     public function setRightBottom($point)
     {
-        return $point;
+        $this->rightBottom = $point;
+    }
+
+    public function getLeftTop()
+    {
+        return $this->leftTop;
+    }
+
+    public function getRightBottom()
+    {
+        return $this->rightBottom;
     }
 }

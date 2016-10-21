@@ -3,6 +3,8 @@
 namespace TeamA\Board\Domain;
 
 use TeamA\Piece\Domain;
+use TeamA\BoundingBox\Domain;
+use TeamA\Point\Domain;
 
 class Board{
 
@@ -14,7 +16,15 @@ class Board{
         $this->pieces = array();
     }
 
-    public function addPiece(Piece p) {
+    public function addPiece(Piece $p) {
+
+    }
+
+    private function canMovePiece(Piece $p, $x, $y) {
+        $boundingBox = $p->getBoundingBox();
+        $leftTop = $boundingBox->getLeftTop();
+        $rightBottom = $boundingBox->getRightBottom();
+
 
     }
 

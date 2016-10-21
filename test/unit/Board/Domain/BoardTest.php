@@ -2,6 +2,7 @@
 
 namespace TeamATest\Board\Domain;
 use TeamA\Board\Domain\Board;
+use TeamA\Piece\Domain\Piece;
 
 /**
  * Class BoardTest
