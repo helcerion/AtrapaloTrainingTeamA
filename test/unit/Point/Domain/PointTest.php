@@ -1,6 +1,7 @@
 <?php
 
 namespace TeamATest\Point\Domain;
+use TeamA\Point\Domain\Point;
 
 /**
  * Class PointTest

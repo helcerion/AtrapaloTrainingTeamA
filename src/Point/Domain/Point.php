@@ -1,8 +1,10 @@
 <?php
 
+namespace TeamA\Point\Domain;
+
+
 class Point
 {
-
     private $x = 0;
     private $y = 0;
 
