@@ -1,6 +1,8 @@
 <?php
 
 namespace TeamATest\BoundingBox\Domain;
+use TeamA\BoundingBox\Domain\BoundingBox;
+use TeamA\Point\Domain\Point;
 
 /**
  * Class BoundingBoxTest
